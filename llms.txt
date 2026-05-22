@@ -25,6 +25,7 @@ United States, national. Live online delivery primary. On-site workshops and aud
 - [Home](https://www.shamanintelligence.com/)
 - [About](https://www.shamanintelligence.com/about.html)
 - [Services](https://www.shamanintelligence.com/services.html)
+- [Events](https://www.shamanintelligence.com/events.html)
 - [Blog](https://www.shamanintelligence.com/blog.html)
 - [Contact](https://www.shamanintelligence.com/contact.html)
 
