@@ -142,7 +142,7 @@ nav {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(14, 11, 26, 0.88);
+  background: rgba(14, 11, 26, 0.81);
   z-index: 0;
 }
 
