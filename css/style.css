@@ -132,7 +132,7 @@ nav {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url('images/ai-overwhelm-executive-boardroom.jpg') center right/cover no-repeat;
+  background: url('../images/ai-overwhelm-executive-boardroom.jpg')
   z-index: 0;
 }
 
