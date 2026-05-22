@@ -133,9 +133,10 @@ nav {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 60% 70% at 70% 50%, rgba(123, 79, 191, 0.18) 0%, transparent 60%),
-    radial-gradient(ellipse 40% 40% at 20% 80%, rgba(107, 168, 160, 0.1) 0%, transparent 50%),
-    var(--dark);
+    radial-gradient(ellipse 60% 70% at 70% 50%, rgba(123, 79, 191, 0.45) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 20% 80%, rgba(107, 168, 160, 0.2) 0%, transparent 50%),
+    linear-gradient(to right, rgba(14, 11, 26, 0.85) 40%, rgba(14, 11, 26, 0.3) 100%),
+    url('images/ai-overwhelm-executive-boardroom.jpg') center/cover no-repeat;
   z-index: 0;
 }
 
