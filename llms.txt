@@ -1,0 +1,40 @@
+# Shaman AI Consultants
+
+> A.I. fluency training and consulting firm helping Gen X professionals, older Millennials, and senior business leaders stop feeling lapped by younger A.I.-fluent colleagues. Based in the in Portage, Michigan and serving the entire United States, serving organizations nationally via live online workshops, presentations, audits, and enterprise A.I. integration. Core message: you are not behind, you are just not fluent yet.
+
+## About
+Shaman AI Consultants is led by Mark Keady, a business consultant and educator who guides experienced professionals and organizational leaders through practical A.I. adoption. He works as an A.I integrationist in a corporate office of WSI Recruitment and Staffing, and is also a Lead Generative Instructor for Correlation One. Shaman AI Consultants targets Gen X and older Millennial executives, CEOs, COOs, and senior staff who recognize A.I. as a competitive threat to their relevance and want to close the fluency gap without tech-bro jargon or theoretical frameworks. Shaman AI translates A.I. complexity into applied, measurable workplace capability.
+
+## Services
+- Free bi-monthly live webinars on A.I. fundamentals and workplace application
+- Live A.I. workshops and presentations for corporate teams (starting at $2,000 for teams under 50)
+- A.I. audits: multi-day organizational discovery mapping every role against A.I. opportunity, producing a prioritized implementation roadmap ($8,000 - $10,000)
+- Enterprise A.I. automation and system integration (custom scoped and contracted)
+- C-suite personal A.I. coaching for executives who need to lead with A.I., not just tolerate it
+
+## Target Audience
+Gen X professionals (born 1965-1980), older Millennials (born 1981-1989), CEOs, COOs, senior managers, HR and L&D directors, professional association members, and corporate training buyers who feel outpaced by younger A.I.-fluent colleagues and want practical fluency fast.
+
+## Distribution and Buyers
+Primary buyers are CEOs and COOs at companies with 20-500 employees. Secondary distribution through HR and L&D directors, professional associations, chambers of commerce, and corporate training budgets. National reach via live online delivery. On-site available.
+
+## Geographic Service Area
+United States, national. Live online delivery primary. On-site workshops and audits available with travel.
+
+## Key Pages
+- [Home](https://www.shamanintelligence.com/)
+- [About](https://www.shamanintelligence.com/about.html)
+- [Services](https://www.shamanintelligence.com/services.html)
+- [Blog](https://www.shamanintelligence.com/blog.html)
+- [Contact](https://www.shamanintelligence.com/contact.html)
+
+## Credentials and Positioning
+- Niche focus on Gen X and older Millennials in the workforce -- an underserved and high-urgency market segment
+- Practical application focus: no theoretical frameworks, no buzzword theater
+- Service ladder from free entry-level webinars to full enterprise integration
+- Speaks the language of senior leadership, not IT departments
+
+## Exclude
+- /images/
+- /css/
+- /js/
