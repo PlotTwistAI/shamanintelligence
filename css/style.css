@@ -133,7 +133,7 @@ nav {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to right, rgba(14, 11, 26, 0.96) 35%, rgba(14, 11, 26, 0.82) 65%, rgba(14, 11, 26, 0.65) 100%),
+    linear-gradient(to right, rgba(14, 11, 26, 0.98) 35%, rgba(14, 11, 26, 0.95) 65%, rgba(14, 11, 26, 0.92) 100%),
     url('images/ai-overwhelm-executive-boardroom.jpg') center right/cover no-repeat;
   z-index: 0;
 }
