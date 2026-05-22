@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | Shaman AI Consultants</title>
+  <meta name="description" content="Free bi-monthly A.I. webinars and live events from Shaman A.I. Consultants. Reserve your spot for the next session covering A.I. fluency for Gen X and senior professionals.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 28px;
+      margin-top: 48px;
+    }
+    .event-card {
+      background: var(--dark-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+    .event-card:hover {
+      border-color: var(--purple-light);
+      transform: translateY(-3px);
+    }
+    .event-date-bar {
+      background: var(--purple);
+      padding: 16px 28px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .event-date-bar.teal { background: var(--teal); }
+    .event-month {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.8);
+      display: block;
+    }
+    .event-day {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1;
+    }
+    .event-date-info {
+      border-left: 1px solid rgba(255,255,255,0.3);
+      padding-left: 16px;
+    }
+    .event-time {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.9);
+      font-weight: 500;
+    }
+    .event-format {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+    .event-body {
+      padding: 28px;
+    }
+    .event-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      letter-spacing: 0.02em;
+      line-height: 1.3;
+    }
+    .event-body p {
+      font-size: 0.9rem;
+      color: var(--gray);
+      line-height: 1.75;
+      margin-bottom: 24px;
+    }
+    .event-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 10px;
+    }
+    .no-events {
+      grid-column: 1 / -1;
+      background: var(--dark-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .no-events h3 {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+      letter-spacing: 0.04em;
+    }
+    .no-events p {
+      font-size: 0.95rem;
+      color: var(--gray);
+      max-width: 480px;
+      margin: 0 auto 32px;
+      line-height: 1.8;
+    }
+    .notify-strip {
+      background: var(--dark-mid);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 40px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      margin-top: 64px;
+      flex-wrap: wrap;
+    }
+    .notify-text h3 {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.04em;
+    }
+    .notify-text p {
+      font-size: 0.92rem;
+      color: var(--gray);
+    }
+    .past-events {
+      margin-top: 80px;
+    }
+    .past-event-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .past-event-row:first-of-type {
+      border-top: 1px solid var(--border);
+    }
+    .past-event-title {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--gray);
+    }
+    .past-event-date {
+      font-size: 0.8rem;
+      color: var(--gray);
+      opacity: 0.6;
+      white-space: nowrap;
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Shaman AI Consultants Events",
+    "url": "https://www.shamanintelligence.com/events.html",
+    "description": "Free bi-monthly A.I. webinars and live events from Shaman A.I. Consultants for Gen X professionals and senior business leaders.",
+    "publisher": {
+      "@type": "ProfessionalService",
+      "name": "Shaman AI Consultants",
+      "url": "https://www.shamanintelligence.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">
+    <img src="images/logo.png" alt="Shaman AI Consultants">
+    <span>Shaman AI</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="events.html" class="active">Events</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html" class="nav-cta">Work With Us</a></li>
+  </ul>
+  <button class="nav-toggle" aria-label="Toggle navigation">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="page-hero">
+  <div class="section-eyebrow">Live Sessions</div>
+  <h1>Events & Webinars</h1>
+  <p>Free bi-monthly webinars covering A.I. fundamentals, tools, and workplace strategy. No fluff. No pitch. Just practical fluency.</p>
+</div>
+
+<section>
+  <div class="section-eyebrow">Upcoming</div>
+  <h2 class="section-title">What's Next</h2>
+
+  <div class="events-grid">
+
+    <!-- NO EVENTS STATE - Delete this block and replace with event cards when you have dates -->
+    <div class="no-events">
+      <h3>New dates coming soon.</h3>
+      <p>Our next free webinar is being scheduled now. Drop your email on the contact page and you'll be the first to know when it's live.</p>
+      <a href="contact.html" class="btn-primary">Notify Me</a>
+    </div>
+
+    <!-- EVENT CARD TEMPLATE - Duplicate this block for each event, remove the HTML comment markers
+    <div class="event-card">
+      <div class="event-date-bar">
+        <div>
+          <span class="event-month">June</span>
+          <span class="event-day">18</span>
+        </div>
+        <div class="event-date-info">
+          <div class="event-time">12:00 PM EST</div>
+          <div class="event-format">Live Webinar · Free</div>
+        </div>
+      </div>
+      <div class="event-body">
+        <span class="event-tag">A.I. Basics</span>
+        <h3>What A.I. Actually Is and Why It Matters for Your Career</h3>
+        <p>A plain-English breakdown of what the tools do, what they don't do, and how to start using them without looking like you're playing catch-up.</p>
+        <a href="contact.html" class="btn-primary">Reserve My Spot</a>
+      </div>
+    </div>
+    -->
+
+  </div>
+
+  <!-- NOTIFY STRIP -->
+  <div class="notify-strip">
+    <div class="notify-text">
+      <h3>Don't miss the next one.</h3>
+      <p>Webinars fill up. Get on the list and we'll send you the date and topic as soon as it's confirmed.</p>
+    </div>
+    <a href="contact.html" class="btn-primary">Get Notified</a>
+  </div>
+
+  <!-- PAST EVENTS - Add previous webinars here over time -->
+  <div class="past-events">
+    <div class="section-eyebrow">Archive</div>
+    <h2 class="section-title" style="margin-bottom: 8px;">Past Events</h2>
+    <p class="section-sub" style="margin-bottom: 32px;">Previous sessions are added to the blog as recordings after they air.</p>
+
+    <!-- PAST EVENT ROW TEMPLATE - Duplicate for each past event
+    <div class="past-event-row">
+      <span class="past-event-title">What A.I. Actually Is and Why It Matters for Your Career</span>
+      <span class="past-event-date">June 18, 2025</span>
+    </div>
+    -->
+
+    <p style="color: var(--gray); font-size: 0.9rem; padding: 20px 0;">Past events will appear here.</p>
+  </div>
+
+</section>
+
+<footer>
+  <div class="footer-logo">
+    <img src="images/logo.png" alt="Shaman AI">
+    <span>Shaman AI Consultants</span>
+  </div>
+  <ul class="footer-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p class="footer-copy">&copy; 2025 Shaman AI Consultants. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
